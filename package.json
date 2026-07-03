@@ -1,0 +1,23 @@
+{
+  "name": "autosuggest1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likhitha366/autosuggest1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/likhitha366/autosuggest1/issues"
+  },
+  "homepage": "https://github.com/likhitha366/autosuggest1#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
