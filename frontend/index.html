@@ -3,10 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>User Card</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>hello from frontend</h1>
-    
+
+    <!-- Navigation Bar -->
+    <div id="nav">
+        <a href="/">Home</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://leetcode.com" target="_blank">LeetCode</a>
+        <a href="./pages/autosuggest.html">Autosuggest</a>
+    </div>
+
+    <!-- Home Intro -->
+    <div id="home-intro">
+        <h1>Home Page</h1>
+        <p id="p1">Operations on User Card</p>
+        <p id="p2">Toggle, Get User and More</p>
+    </div>
+
+    <!-- User Card -->
+    <div id="card">
+
+        <!-- Image -->
+        <div id="card-img">
+            <img
+                id="img"
+                src="./images/jane.png"
+                alt="User Image">
+        </div>
+
+        <!-- User Details -->
+        <div id="action">
+            <h2 id="card-name">Jane Doe</h2>
+
+            <p id="card-gender">Female</p>
+
+            <button id="card-toggle" onclick="toggle()">
+                Toggle
+            </button>
+
+            <button id="random-user" onclick="getRandomUser()">
+                Get Random User
+            </button>
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+
 </body>
 </html>

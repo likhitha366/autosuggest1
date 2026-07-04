@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Navigation Bar */
+
+#nav {
+    background-color: lightcoral;
+    padding: 12px;
+    text-align: center;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+#nav a:hover {
+    color: black;
+}
+
+/* Home Section */
+
+#home-intro {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-bottom: 2px solid black;
+}
+
+#home-intro h1 {
+    color: brown;
+}
+
+#p1 {
+    font-size: 18px;
+}
+
+#p2 {
+    color: blue;
+}
+
+/* User Card */
+
+#card {
+    width: 340px;
+    margin: 40px auto;
+    background: white;
+    border: 4px solid black;   /* Single thick border */
+    border-radius: 10px;
+    overflow: hidden;          /* Keeps image inside the border */
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* Image */
+
+#card-img {
+    width: 100%;
+}
+
+#img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Details */
+
+#action {
+    padding: 20px;
+}
+
+#card-name {
+    color: brown;
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+#card-gender {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Toggle Button */
+
+#card-toggle {
+    width: 90%;
+    padding: 12px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#card-toggle:hover {
+    background-color: #555;
+}
+
+/* Random User Button */
+
+#random-user {
+    width: 90%;
+    padding: 12px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#random-user:hover {
+    background-color: navy;
+}
